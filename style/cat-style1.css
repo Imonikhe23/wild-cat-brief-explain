@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+.container{
+    overflow: scroll;
+    display: flex;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0 20px;
+}
+nav ul li{
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav ul li:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(110, 110, 110);
+}
+header{
+    padding: 0 20px;
+    margin-right: 500px;
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+}
+.Style-button{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   float: right;
+   height: 100vh;
+   background-color: white;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+}
+.Style-button button{
+    padding: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding:  10px;
+    margin: 50px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.Style-button button a{
+    text-decoration: none;
+    color: black;
+}
+.Style-button button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid rgb(175, 105, 18);
+    border-radius: 20px;
+}
+.Style-button button a:hover{
+    color: rgb(0, 0, 0);
+}
+main{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 130px;
+
+}
+.cat-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 50px;
+    border-radius: 5px;
+    bottom: 100px;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.layer{
+    display: block;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+.layer img{
+    display: fit-content;
+    width: 100%;
+    border-radius: 4px;
+}
+.layer p{
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.lion-layer{
+    display: block;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+.lion-layer img{
+    display: fit-content;
+    width: 100%;
+    border-radius: 5px;
+}
+.lion-layer h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.lion-layer p{
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+.lion-box{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 20px;
+}
+.box{
+   align-items: center;
+   padding: 20px;
+   margin: 0px 5px;
+   text-align: center;
+}
+.lion-box img{
+    width: 100%;
+    border-radius: 20%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: 50px space-around;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.contact{
+    margin: 10px;
+    margin-right: 80px;
+}
+.copy{
+    align-items: center;
+    padding: 0 350px;
+    margin: 0;
+    text-align: center;
+}
+
